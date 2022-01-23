@@ -6,7 +6,7 @@
 
 using namespace std;
  
-void sMatMultiply(double mat1[N][N], double mat2[N][N], double mat3[N][N])
+void MatrixMultiply(double mat1[N][N], double mat2[N][N], double mat3[N][N])
 {
     int i, j, k;
     for (i = 0; i < N; i++) {
@@ -36,7 +36,7 @@ int main()
     timespec start, end;
     clock_gettime(CLOCK_REALTIME, &start);
 
-    sMatMultiply(mat1, mat2, mat3);
+    MatrixMultiply(mat1, mat2, mat3);
 
     // cout << "Resultant matrix is \n";
     // for (int i=0; i<N; i++)

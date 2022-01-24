@@ -10,6 +10,6 @@ start=time.time_ns()
 mat3 = np.dot(mat1,mat2)
 end=time.time_ns()
 
-print(mat3)
+# print(mat3)
 
 print("Time taken for matrix multiplication in seconds", (end-start)*1e-9)
